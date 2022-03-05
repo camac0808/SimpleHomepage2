@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.imsi-title {
+  color: #003c8a;
+  font-weight: 700;
+  font-size: 3.2em;
+  letter-spacing: -0.1em;
+}
+
+.imsi-category {
+  margin-top: 10px;
+  text-align: left;
+  font-weight: 800;
+  font-size: 1.2em;
+  letter-spacing: -0.1em;
+  margin: 0;
+}
+
+.imsi-text {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.2em;
+  letter-spacing: -0.1em;
+}
+
+.point {
+  font-weight: 900;
+  color: #003c8a;
+}
+
+p:not(.imsi-text) {
+  line-height: 10px;
+}
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-image: url(img/IMSI_Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.sub-frame {
+  position: relative;
+  width: 850px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imsi-left {
+  position: absolute;
+  margin-top: 30px;
+  left: 0;
+  width: 425px;
+  height: 540px;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.imsi-frame {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.imsi-right {
+  position: absolute;
+  margin-top: 30px;
+  right: 0;
+  width: 425px;
+  height: 540px;
+}
+
+.imsi-button {
+  color: #fff;
+  border: 1px solid #003c8a;
+  background-color: #003c8a;
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 10px;
+  width: 390px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.imsi-button:hover {
+  transition: 0.2s;
+  border: 1px solid #0a1b7a;
+  background-color: #0a1b7a;
+}
+
+a {
+  text-decoration: none;
+}
